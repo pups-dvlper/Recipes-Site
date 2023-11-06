@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Set a background color and text color for the entire page */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+  h1 {
+    text-align: center;
+    color: #63954b;
+  }
+  .container {
+    width: 55%;
+    margin: 2rem 0rem 0rem 4rem;
+  }
+  .recipe {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .recipe-image {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+  }
+  .recipe-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .recipe-ingredients {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .recipe-ingredients li {
+    margin-bottom: 5px;
+    font-size: 100;
+  }
+  .recipe-directions li {
+    margin-bottom: 10px;
+    font-size: 100;
+  }
+
+  .container1{
+    position: fixed;
+    z-index: -1;
+    margin: -70rem 0rem 0rem 48.5rem;
+  }
+
+  .container2{
+    position: fixed;
+    z-index: -1;
+    margin: -70rem 0rem 0rem 48.5rem;
+  }
+
+  .container3{
+    position: fixed;
+    z-index: -1;
+    margin: -105rem 0rem 0rem 48.5rem;
+  }
+
+  .container4{
+    position: fixed;
+    z-index: -1;
+    margin: -70rem 0rem 0rem 48.5rem;
+  }
+
+  .container5{
+    position: fixed;
+    z-index: -1;
+    margin: -65rem 0rem 0rem 48.5rem;
+  }
+
+  .container6{
+    position: fixed;
+    z-index: -1;
+    margin: -65rem 0rem 0rem 48.5rem;
+  }
+
+  .container7{
+    position: fixed;
+    z-index: -1;
+    margin: -55rem 0rem 0rem 48.5rem;
+  }
+
+  .container8{
+    position: fixed;
+    z-index: -1;
+    margin: -70rem 0rem 0rem 48.5rem;
+  }
+
+  .container9{
+    position: fixed;
+    z-index: -1;
+    margin: -60rem 0rem 0rem 48.5rem;
+  }
+
+  .container10{
+    position: fixed;
+    z-index: -1;
+    margin: -105rem 0rem 0rem 48.5rem;
+  }
+
+  .container11{
+    position: fixed;
+    z-index: -1;
+    margin: -66rem 0rem 0rem 48.5rem;
+  }
+
+  .container12{
+    position: fixed;
+    z-index: -1;
+    margin: -70rem 0rem 0rem 48.5rem;
+  }
+
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 40px;
+    font-size: 38px;
+}
+.social-icon:hover{
+    color: #314e52;
+    cursor: pointer;
+}
+
+  footer {
+    text-align: center;
+    margin-top: 0rem;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #63954b;
+    color: rgb(255, 255, 255, 0.8);
+}
